@@ -96,6 +96,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### 文档
 
 - 🧾 **README 捐赠入口更新为小红书二维码** — README 及中英文说明中的赞助入口更新为小红书二维码素材，保持展示口径一致。
+### 新功能
+
+- 🇦🇺 **澳股（ASX）股票代码支持** — 新增澳股代码识别与数据获取能力，支持 `.AX` 后缀格式（如 `BHP.AX`、`CBA.AX`）；数据源走 YfinanceFetcher，同时支持历史日线和实时行情查询；交易日历同步扩展澳交所交易时段。
 
 ## [3.10.1] - 2026-03-24
 
